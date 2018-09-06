@@ -13,16 +13,21 @@
 
 ## Installation
 
-> 1- You must create a custom Laravel command using <code>php artisan make:command CreateView</code>.<br/>
-<br/>
->2- Go to  the command file  <strong>app/Console/Commands/CreateView.php</strong>.
+> 1- You must create a custom Laravel command using <code>php artisan make:command CreateView</code>.
 <br/>
 <br/>
->3- Change signature to <code>protected $signature = 'make:view {name}';</code>.
+
+> 2- Go to  the command file  <strong>app/Console/Commands/CreateView.php</strong>.
 <br/>
 <br/>
->4- Modify handle function<br/>
+
+> 3- Change signature to <code>protected $signature = 'make:view {name}';</code>.
+<br/>
+<br/>
+
+> 4- Modify handle function<br/>
 <code>
+    
 public function handle()<br/>
     {<br/>
         &nbsp;&nbsp;&nbsp;$name = $this->argument('name');<br/>
@@ -35,4 +40,5 @@ public function handle()<br/>
 </code>
 <br/>
 <br/>
->5- Thats it 	&#x263a;
+
+> 5- Thats it 	&#x263a;
