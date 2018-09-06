@@ -1,0 +1,1 @@
+# laravel_create_view_artisan_command
